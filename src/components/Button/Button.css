@@ -1,0 +1,23 @@
+.button-route {
+  align-items: center;
+  background: #c8c6a7;
+  border-radius: 9999px;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: 800px;
+  padding: 8px 24px;
+  transition: opacity 0.3s ease;
+  user-select: none;
+}
+
+.button-route:disabled {
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.button-route:hover {
+  opacity: 0.7;
+}

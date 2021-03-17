@@ -1,0 +1,23 @@
+.app-layout {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+main {
+  background-color: var(--theme-page-background);
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: auto;
+  width: 100%;
+}
+
+@media (min-width: 520px) {
+  main {
+    height: 90vh;
+    width: 520px;
+  }
+}
