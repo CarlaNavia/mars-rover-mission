@@ -6,7 +6,6 @@ of the planet. Develop a software that translates the commands sent from earth t
 that are understood by the rover.
 
 ## Requirements
-
 - You are given the initial starting point (x,y) of a rover and the direction (N,S,E,W)
 it is facing.
 - The rover receives a collection of commands. (E.g.) FFRRFFFRL
@@ -18,5 +17,10 @@ sequence of commands encounters an obstacle, the rover moves up to the last
 possible point, aborts the sequence and reports the obstacle.
 
 ## Take into account
-
+- Position (x:0, y:0) is located in the extreme bottom-left of the planet.
 - Rovers are expensive, make sure the software works as expected.
+
+## Challenges apart from solving the kata
+- To develop the application in a React environment ✅
+- To include "dark mode" on the website ✅
+- Testing to verify that the code works properly

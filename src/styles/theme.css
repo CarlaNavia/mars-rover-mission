@@ -2,10 +2,12 @@
   --theme-color: orange;
   --theme-page-background: #fff;
   --theme-page-text: #111;
+  --theme-error: rgb(143, 17, 17);
 }
 
 .dark {
   --theme-color: #92967d;
   --theme-page-background: #111;
   --theme-page-text: #fff;
+  --theme-error: orange;
 }
