@@ -24,3 +24,6 @@ possible point, aborts the sequence and reports the obstacle.
 - To develop the application in a React environment ✅
 - To include "dark mode" on the website ✅
 - Testing to verify that the code works properly
+
+## Styles
+<img src="./public/mars-rover-mission.png" alt="application" height=400px/>
