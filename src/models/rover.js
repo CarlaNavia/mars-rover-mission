@@ -1,4 +1,4 @@
-export default class Rover {
+module.exports = class Rover {
   constructor() {
     this.direction = "N";
     this.x = 0;
@@ -30,6 +30,9 @@ export default class Rover {
       }
 
       for (let i = 0; i < coordinates.length; i++) {
+        if (this.obstacleCoords) {
+          return;
+        }
         switch (coordinates[i]) {
           case "f":
             this.moveForward();
@@ -128,4 +131,4 @@ export default class Rover {
     this.y = coords.y;
     this.travelLog.push({ x: this.x, y: this.y });
   }
-}
+};

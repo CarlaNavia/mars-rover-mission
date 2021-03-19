@@ -48,14 +48,18 @@ export default function Home() {
           *Please, bear in mind that in order to move the rover you only can
           use: <br />F to move forward, L to rotate left and R to rotate right.
         </p>
-       <h3 className="error">{error}</h3> 
+        <h3 className="error">{error} </h3>
+
+        {robot && robot.obstacleCoords && (
+          <h3 className="error">{`UPS! There is an obstacle at coordinates [ ${robot.x},${robot.y} ]`}</h3>
+        )}
         <h2>Let's follow the route:</h2>
         {robot && (
           <ul>
             {robot.travelLog.map((log, index) => {
               return (
                 <li key={index}>
-                 ( {log.x}, {log.y} )
+                  ( {log.x}, {log.y} )
                 </li>
               );
             })}

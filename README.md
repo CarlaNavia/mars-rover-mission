@@ -20,10 +20,19 @@ possible point, aborts the sequence and reports the obstacle.
 - Position (x:0, y:0) is located in the extreme bottom-left of the planet.
 - Rovers are expensive, make sure the software works as expected.
 
+## Instructions:
+- Clone this repo
+```
+$ npm install
+$ npm start
+```
+
+Then, you could open http://localhost:3000 with your browser to see the result.
+
 ## Challenges apart from solving the kata
 - To develop the application in a React environment ✅
 - To include "dark mode" on the website ✅
-- Testing to verify that the code works properly
+- Testing to verify that the code works properly ✅
 
-## Styles
+## Screenshot
 <img src="./public/mars-rover-mission.png" alt="application" height=400px/>
